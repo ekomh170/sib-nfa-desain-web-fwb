@@ -1,5 +1,5 @@
-# CV Eko Muchamad Haryono
+# SIB Fullstack Web Developer - Desain Web - Pertemuan 2
 
-![Preview CV](assets/img/Porto.png)
+![Preview CV](assets/img/tugas-pertemuan-2-eko-muchamad-haryono-fwb-nfa-desain-web-2.png)
 
-Proyek CV digital berbasis HTML dan CSS untuk menampilkan profil profesional Eko Muchamad Haryono.
+**Tabel Jadwal** (`table-eko-muchamad-haryono.html`) - Jadwal kuliah dengan styling modern menggunakan rowspan, colspan, dan CSS inline
