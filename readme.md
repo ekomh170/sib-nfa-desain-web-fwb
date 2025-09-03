@@ -29,5 +29,13 @@ Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti prog
 - **Teknologi**: HTML5, CSS3
 - **Deskripsi**: Pembuatan CV digital dengan fitur foto profil, sosial media links, dan galeri
 
+### 🎯 Tugas 2: Desain Web - Tabel Jadwal
+- **Branch**: `desain-web-pertemuan-2`
+- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-2](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-2)
+- **Status**: ✅ COMPLETED
+- **Deadline**: 5 September 2025, 23:59
+- **Teknologi**: HTML5, CSS3
+- **Deskripsi**: Pembuatan tabel jadwal kuliah dengan styling modern menggunakan rowspan, colspan, dan CSS inline
+
 ---
 *Repository dibuat untuk program SIB Fullstack Web Developer (NFA) - Batch 2025*
