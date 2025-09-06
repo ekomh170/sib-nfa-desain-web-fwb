@@ -4,6 +4,9 @@
 
 Tugas praktikum **Desain Web Pertemuan 3** - Portfolio website sederhana menggunakan **HTML5 Frameset** untuk implementasi layout frame dengan struktur dan styling CSS.
 
+## 📁 **Download Project**
+🔗 **GitHub Repository**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3)
+
 ## 📸 **Website Preview**
 
 ### 🏠 **Home Page**
