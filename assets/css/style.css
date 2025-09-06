@@ -1,0 +1,641 @@
+/* =================================
+   GLOBAL STYLES - DIPAKAI DI SEMUA FILE
+   ================================= */
+
+/* Font dan warna global yang konsisten di seluruh website */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fffdf8; /* Background cream konsisten */
+  line-height: 1.6;
+  color: #5d4037; /* Warna text coklat konsisten */
+}
+
+/* =================================
+   HEADER STYLES - header.html
+   ================================= */
+
+.header-container {
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background: linear-gradient(135deg, #2f1e1a, #4b2e2b); /* Gradient coklat gelap */
+  color: #fff;
+  display: flex; /* Flexbox untuk layout horizontal */
+  align-items: center; /* Center vertikal */
+  justify-content: space-between; /* Space between logo dan link */
+  padding: 8px 16px;
+  height: 100vh; /* Full viewport height */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 14px; /* Jarak antara icon dan text */
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700; /* Bold */
+}
+
+.tagline {
+  font-size: 12px;
+  opacity: 0.8; /* Sedikit transparan */
+}
+
+.header-link {
+  color: #ffd9a0; /* Warna kuning cream */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+/* =================================
+   NAVIGATION STYLES - nav.html
+   ================================= */
+
+.nav-container {
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background: #f0e6db; /* Warna cream untuk navigation bar */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox untuk centering */
+  align-items: center; /* Center vertikal */
+  justify-content: center; /* Center horizontal */
+}
+
+.nav {
+  display: flex; /* Layout horizontal */
+  gap: 24px; /* Jarak antar menu item */
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none; 
+  color: #3a2d28; /* Warna coklat gelap */
+  font-weight: bold;
+  padding: 8px 16px; /* Padding untuk area klik yang lebih besar */
+  border-radius: 6px; /* Sudut melengkung */
+  transition: background-color 0.3s; /* Animasi smooth untuk hover */
+}
+
+.nav a:hover {
+  background-color: #e0d6ca; /* Background saat hover */
+  text-decoration: underline;
+}
+
+/* =================================
+   FOOTER STYLES - footer.html
+   ================================= */
+
+.footer-container {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient coklat */
+  color: white;
+  margin: 0;
+  padding: 15px 10px; /* Padding lebih besar */
+  text-align: center;
+  min-height: 60px; /* Height lebih besar */
+  display: flex; /* Flexbox untuk centering */
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column; /* Susun vertikal */
+  align-items: center;
+  gap: 8px; /* Jarak antar elemen lebih besar */
+  max-width: 800px; /* Batasi lebar maksimal */
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.contact {
+  font-size: 12px;
+  opacity: 0.9; /* Sedikit transparan */
+  margin-bottom: 3px;
+}
+
+.status {
+  font-size: 11px;
+  opacity: 0.8;
+  font-style: italic;
+  background: rgba(255,255,255,0.1); /* Background transparan */
+  padding: 3px 8px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.footer-container a {
+  color: #fff3e0; /* Warna cream untuk link */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Animasi smooth */
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+  color: #ffffff; /* Warna putih saat hover */
+}
+
+/* =================================
+   SIDEBAR STYLES - left.html & right.html
+   ================================= */
+
+.sidebar-container {
+  font-family: Arial, sans-serif; 
+  background: #fffdf8; /* Background cream yang konsisten */
+  margin: 10px;
+  line-height: 1.6;
+}
+
+.sidebar-fieldset {
+  border: 2px dashed #a17c5b; /* Border putus-putus coklat */
+  border-radius: 10px; 
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.sidebar-legend {
+  font-weight: bold; 
+  color: #6d4c41; /* Warna coklat gelap */
+  padding: 0 10px;
+}
+
+.sidebar-list {
+  padding-left: 18px; 
+  margin: 10px 0;
+}
+
+.sidebar-list li {
+  margin-bottom: 8px;
+}
+
+.sidebar-link {
+  color: #5d4037; /* Warna coklat untuk link */
+  text-decoration: none;
+}
+
+.sidebar-link:hover {
+  text-decoration: underline;
+  color: #3e2723; /* Warna lebih gelap saat hover */
+}
+
+/* =================================
+   CONTENT PAGE STYLES - home.html, study.html, gallery.html
+   ================================= */
+
+.content-container {
+  font-family: Arial, sans-serif;
+  background: #fffdf8; /* Background cream */
+  margin: 20px;
+  line-height: 1.6;
+  color: #5d4037; /* Warna text coklat */
+}
+
+/* Hero Section untuk halaman utama */
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient coklat */
+  color: white;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Shadow halus */
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* Text shadow */
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+/* Page Header untuk halaman selain home */
+.page-header {
+  text-align: center;
+  background: linear-gradient(135deg, #6d4c41 0%, #5d4037 100%); /* Gradient coklat */
+  color: white;
+  padding: 25px 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.page-header h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+/* Content Section untuk semua konten */
+.content-section {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow halus */
+  border-left: 5px solid #8d6e63; /* Accent border kiri */
+}
+
+.content-section h2 {
+  color: #6d4c41;
+  border-bottom: 2px solid #8d6e63; /* Underline coklat */
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+/* =================================
+   GRID LAYOUTS - DIPAKAI DI BEBERAPA FILE
+   ================================= */
+
+/* Grid untuk feature cards di home.html */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Grid untuk tech stack di home.html */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 15px;
+}
+
+/* Grid untuk portfolio di gallery.html */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+/* Grid untuk social media links di gallery.html */
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* =================================
+   CARD STYLES - DIPAKAI DI BEBERAPA FILE
+   ================================= */
+
+/* Feature cards di home.html */
+.feature-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+  transition: transform 0.3s ease; /* Animasi smooth */
+}
+
+.feature-card:hover {
+  transform: translateY(-5px); /* Efek naik saat hover */
+  border-color: #8d6e63; /* Border berubah warna */
+}
+
+.feature-icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+/* Tech cards di home.html */
+.tech-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #8d6e63; /* Accent border kiri */
+}
+
+.tech-card h4 {
+  margin: 0 0 10px 0;
+  color: #6d4c41;
+}
+
+.tech-card ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+/* Portfolio cards di gallery.html */
+.portfolio-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Shadow halus */
+  border-left: 5px solid #8d6e63; /* Accent border kiri */
+  transition: transform 0.3s ease; /* Animasi smooth */
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px); /* Efek naik saat hover */
+}
+
+.portfolio-card h3 {
+  color: #6d4c41;
+  margin-bottom: 10px;
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Crop gambar untuk fit container */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Social media cards di gallery.html */
+.social-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s ease; /* Animasi smooth untuk semua property */
+}
+
+.social-card:hover {
+  border-color: #8d6e63; /* Border berubah warna */
+  transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.social-card a {
+  text-decoration: none;
+  color: #6d4c41;
+  font-weight: bold;
+}
+
+.social-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+  display: block; /* Membuat icon jadi block element */
+}
+
+/* =================================
+   TABLE STYLES - study.html
+   ================================= */
+
+.education-table {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.education-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.education-table th, 
+.education-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.education-table th {
+  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%);
+  color: white;
+  font-weight: bold;
+}
+
+.education-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.education-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+/* Status badges di study.html */
+.status-lulus {
+  background: #4caf50;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-progress {
+  background: #2196f3;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* =================================
+   LIST STYLES - study.html & gallery.html
+   ================================= */
+
+/* Achievement list di study.html */
+.achievements {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.achievement-list {
+  list-style: none;
+  padding: 0;
+}
+
+.achievement-list li {
+  background: #f5f5f5;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border-left: 4px solid #8d6e63;
+}
+
+.achievement-list li strong {
+  color: #6d4c41;
+}
+
+/* Experience list di gallery.html */
+.experience-section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Shadow halus */
+}
+
+.experience-list {
+  list-style: none; /* Menghilangkan bullet points */
+  padding: 0;
+}
+
+.experience-list li {
+  background: #f5f5f5;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #8d6e63; /* Accent border kiri */
+}
+
+.experience-list li strong {
+  color: #6d4c41;
+  display: block; /* Membuat strong jadi block element */
+  margin-bottom: 5px;
+}
+
+/* =================================
+   BUTTON STYLES - home.html & study.html
+   ================================= */
+
+/* CTA Button yang dipakai di home.html dan study.html */
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient background */
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 25px; /* Sudut melengkung penuh */
+  margin-top: 20px;
+  transition: transform 0.3s ease; /* Animasi smooth */
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  transform: scale(1.05); /* Efek zoom saat hover */
+  color: white;
+}
+
+/* =================================
+   ANIMATION STYLES - gallery.html
+   ================================= */
+
+/* Marquee animation untuk teks berjalan */
+.marquee-container {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Shadow halus */
+  overflow: hidden; /* Menyembunyikan teks yang keluar */
+}
+
+.marquee {
+  white-space: nowrap; /* Mencegah text wrap */
+  animation: scroll 25s linear infinite; /* Animasi berjalan 25 detik */
+  font-size: 18px;
+  font-weight: bold;
+  color: #6d4c41;
+}
+
+/* Keyframes untuk animasi marquee */
+@keyframes scroll {
+  0% { transform: translateX(100%); } /* Mulai dari kanan */
+  100% { transform: translateX(-100%); } /* Berakhir di kiri */
+}
+
+/* =================================
+   RESPONSIVE STYLES - UNTUK SEMUA FILE
+   ================================= */
+
+/* Media queries untuk tablet */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+  }
+  
+  .page-header h1 {
+    font-size: 24px;
+  }
+  
+  .features {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .social-links {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+/* Media queries untuk mobile */
+@media (max-width: 480px) {
+  .content-container {
+    margin: 10px;
+  }
+  
+  .hero {
+    padding: 20px 15px;
+  }
+  
+  .hero h1 {
+    font-size: 24px;
+  }
+  
+  .hero p {
+    font-size: 14px;
+  }
+  
+  .page-header {
+    padding: 15px 10px;
+  }
+  
+  .content-section {
+    padding: 15px;
+  }
+  
+  .features {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .marquee {
+    font-size: 14px;
+  }
+  
+  .nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .brand {
+    font-size: 16px;
+  }
+  
+  .tagline {
+    font-size: 10px;
+  }
+}
