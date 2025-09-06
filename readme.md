@@ -1,41 +1,35 @@
-# SIB Fullstack Web Developer - Materi Desain Web
+# 🎯 SIB Fullstack Web Developer - Desain Web Pertemuan 3
 
-## Identitas Mahasiswa
-- **NIM**: 0110223079
-- **Nama**: Eko Muchamad Haryono
-- **Aktivitas**: SIB Fullstack Web Developer (NFA)
-- **Topik**: Desain Web
-- **Group**: 2
-- **Ruangan**: Zoom Mentoring Kelompok 02 Fullstack Web Developer - Gedung NF Academy Training Center
-- **Prodi & Peminatan**: Teknik Informatika - Software Engineering
-- **Semester**: 5
+## 📋 **Layout Frame Portfolio Website**
 
-## Deskripsi Project
-Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti program SIB (Studi Independen Bersertifikat) Fullstack Web Developer di Nurul Fikri Academy. Setiap tugas diorganisir menggunakan sistem branch untuk memudahkan pengelolaan dan review.
+Tugas praktikum **Desain Web Pertemuan 3** - Portfolio website sederhana menggunakan **HTML5 Frameset** untuk implementasi layout frame dengan struktur dan styling CSS.
 
-### Tujuan Repository:
-- Mengumpulkan semua tugas SIB Fullstack Web Developer
-- Dokumentasi progress pembelajaran
-- Portfolio project selama program
-- Referensi untuk pembelajaran berkelanjutan
+## 📸 **Website Preview**
 
-## Link PerTugas
+### 🏠 **Home Page**
+![Home Preview](assets/preview-img/Home.png)
+*Landing page dengan hero section dan informasi personal*
 
-### 🎯 Tugas 1: Desain Web - CV Digital
-- **Branch**: `desain-web-pertemuan-1`
-- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-1](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-1)
-- **Status**: ✅ COMPLETED
-- **Deadline**: 4 September 2025, 23:59
-- **Teknologi**: HTML5, CSS3
-- **Deskripsi**: Pembuatan CV digital dengan fitur foto profil, sosial media links, dan galeri
+### 📚 **Study Page** 
+![Study Preview](assets/preview-img/Riwayat.png)
+*Halaman riwayat pendidikan dan prestasi akademik*
 
-### 🎯 Tugas 2: Desain Web - Tabel Jadwal
-- **Branch**: `desain-web-pertemuan-2`
-- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-2](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-2)
-- **Status**: ✅ COMPLETED
-- **Deadline**: 5 September 2025, 23:59
-- **Teknologi**: HTML5, CSS3
-- **Deskripsi**: Pembuatan tabel jadwal kuliah dengan styling modern menggunakan rowspan, colspan, dan CSS inline
+### 🖼️ **Portfolio Page**
+![Portfolio Preview](assets/preview-img/Portofolio.png)
+*Showcase portfolio dan pengalaman kerja profesional*
 
----
-*Repository dibuat untuk program SIB Fullstack Web Developer (NFA) - Batch 2025*
+### 🏗️ **Struktur Website**
+
+```
+index.html (Main Frameset)
+├── header.html     (120px height - Personal branding)  
+├── nav.html        (60px height - Navigation menu)
+├── content area    (Flexible height)
+│   ├── left.html   (20% width - Social links) 
+│   ├── main area   (60% width - Dynamic content)
+│   │   ├── home.html    (Hero & personal info)
+│   │   ├── study.html   (Education & achievements)  
+│   │   └── gallery.html (Portfolio & experience)
+│   └── right.html  (20% width - Tech resources)
+└── footer.html     (90px height - Contact info)
+```
