@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Eko Muchamad Haryono — Frameset</title>
+</head>
+<!-- NOTE: Frameset is deprecated di HTML5, dipakai di sini hanya untuk tugas -->
+<!-- Frameset dengan layout vertikal: header, nav, content area, footer -->
+<frameset rows="120,60,*,90" border="2">
+  <!-- Frame header dengan tinggi 120px -->
+  <frame src="header.html" name="header" scrolling="no" noresize>
+  <!-- Frame navigation dengan tinggi 60px -->
+  <frame src="nav.html" name="nav" scrolling="no" noresize>
+  <!-- Frame content area dengan 3 kolom: left sidebar, main content, right sidebar -->
+  <frameset cols="20%,*,20%" border="2">
+    <!-- Left sidebar 20% lebar -->
+    <frame src="left.html" name="left" scrolling="auto">
+    <!-- Main content area (sisa lebar) -->
+    <frame src="home.html" name="main" scrolling="auto">
+    <!-- Right sidebar 20% lebar -->
+    <frame src="right.html" name="right" scrolling="auto">
+  </frameset>
+  <!-- Frame footer dengan tinggi 90px -->
+  <frame src="footer.html" name="footer" scrolling="no" noresize>
+</frameset>
+<!-- Fallback untuk browser yang tidak mendukung frames -->
+<noframes>
+  <p>Browser Anda tidak mendukung frame. Silakan buka <a href="home.html">home.html</a>.</p>
+</noframes>
+</html>
