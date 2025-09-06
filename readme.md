@@ -37,5 +37,13 @@ Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti prog
 - **Teknologi**: HTML5, CSS3
 - **Deskripsi**: Pembuatan tabel jadwal kuliah dengan styling modern menggunakan rowspan, colspan, dan CSS inline
 
+### 🎯 Tugas 3: Desain Web - Layout Frame Portfolio
+- **Branch**: `desain-web-pertemuan-3`
+- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3)
+- **Status**: ✅ COMPLETED
+- **Deadline**: 8 September 2025, 23:59
+- **Teknologi**: HTML5, CSS3, Frameset
+- **Deskripsi**: Portfolio website dengan layout frameset, external CSS, responsive design, dan animasi marquee
+
 ---
 *Repository dibuat untuk program SIB Fullstack Web Developer (NFA) - Batch 2025*
