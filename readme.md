@@ -19,9 +19,9 @@ Tugas praktikum **Desain Web Pertemuan 4** - Penataan ulang portfolio website da
 *Landing page dengan hero section dan informasi personal*
 
 ### 📚 **Study Page** 
-![Study Preview](assets/preview-img/Riwayat.png)
-*Halaman riwayat pendidikan dan prestasi akademik*
+![Study Preview](assets/preview-img/MyStudy.png)
+*Halaman Study pendidikan dan prestasi akademik*
 
-### 🖼️ **Portfolio Page**
-![Portfolio Preview](assets/preview-img/Portofolio.png)
-*Showcase portfolio dan pengalaman kerja profesional*
+### 🖼️ **Galeri Page**
+![Galeri Preview](assets/preview-img/Gallery.png)
+*Showcase galeri dan pengalaman kerja profesional*
