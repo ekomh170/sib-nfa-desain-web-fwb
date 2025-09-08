@@ -11,9 +11,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #f8fbff; /* Background cream-blue konsisten */
+  background: #f8fbff; /* Background biru muda konsisten */
   line-height: 1.6;
-  color: #1e3a8a; /* Warna text biru konsisten */
+  color: #1e3a8a; /* Warna text biru gelap konsisten */
 }
 
 /* =================================
@@ -49,7 +49,7 @@ body {
 }
 
 .header-link {
-  color: #a5d8ff; /* Warna biru muda cream */
+  color: #a5d8ff; /* Warna biru muda */
   text-decoration: none;
   font-weight: bold;
 }
@@ -140,7 +140,7 @@ body {
 }
 
 .footer-container a {
-  color: #dbeafe; /* Warna biru cream untuk link */
+  color: #dbeafe; /* Warna biru muda untuk link */
   text-decoration: none;
   transition: color 0.3s ease; /* Animasi smooth */
 }
@@ -156,7 +156,7 @@ body {
 
 .sidebar-container {
   font-family: Arial, sans-serif; 
-  background: #f8fbff; /* Background biru cream yang konsisten */
+  background: #f8fbff; /* Background biru muda yang konsisten */
   margin: 10px;
   line-height: 1.6;
 }
@@ -190,7 +190,7 @@ body {
 
 .sidebar-link:hover {
   text-decoration: underline;
-  color: #1e40af; /* Warna lebih gelap saat hover */
+  color: #1e40af; /* Warna biru gelap saat hover */
 }
 
 /* =================================
@@ -199,10 +199,10 @@ body {
 
 .content-container {
   font-family: Arial, sans-serif;
-  background: #f8fbff; /* Background biru cream */
+  background: #f8fbff; /* Background biru muda */
   margin: 20px;
   line-height: 1.6;
-  color: #1e3a8a; /* Warna text biru */
+  color: #1e3a8a; /* Warna text biru gelap */
 }
 
 /* Hero Section untuk halaman utama */
@@ -552,13 +552,17 @@ body {
 
 /* Keyframes untuk animasi marquee */
 @keyframes scroll {
-  0% { transform: translateX(100%); } /* Mulai dari kanan */
-  100% { transform: translateX(-100%); } /* Berakhir di kiri */
+  0% { 
+    transform: translateX(100%); /* Mulai dari kanan */
+  } 
+  100% { 
+    transform: translateX(-100%); /* Berakhir di kiri */
+  }
 }
 
-/* =================================
+/* =====================================
    RESPONSIVE STYLES - UNTUK SEMUA FILE
-   ================================= */
+   ===================================== */
 
 /* Media queries untuk tablet */
 @media (max-width: 768px) {

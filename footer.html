@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Footer</title>
-<link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="utf-8">
+  <title>Footer</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* CSS tambahan untuk footer */
+    .footer-container {
+      position: relative;
+      overflow: hidden;
+    }
+    .footer-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, #1e40af, #3b82f6, #60a5fa, #3b82f6, #1e40af);
+      background-size: 200% 100%;
+      animation: gradientMove 3s ease-in-out infinite;
+    }
+    @keyframes gradientMove {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    .marquee {
+      position: relative;
+    }
+    .marquee:hover {
+      animation-play-state: paused;
+    }
+  </style>
 </head>
+<body class="footer-container">
 <body class="footer-container">
   <!-- Container utama konten footer -->
   <div class="footer-content">

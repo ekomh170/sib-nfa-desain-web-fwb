@@ -4,6 +4,38 @@
 <meta charset="utf-8">
 <title>Gallery - Portfolio Eko Muchamad Haryono</title>
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+  /* CSS tambahan untuk halaman gallery */
+  .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+  }
+  .portfolio-item:hover {
+    transform: perspective(1000px) rotateX(5deg) rotateY(5deg);
+    box-shadow: 0 15px 40px rgba(30, 64, 175, 0.3);
+  }
+  .portfolio-item::after {
+    content: '🔍';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    font-size: 24px;
+    background: rgba(30, 64, 175, 0.9);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+  }
+  .portfolio-item:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+</style>
 </head>
 <body class="content-container">
   <!-- Header halaman gallery dengan judul dan deskripsi -->

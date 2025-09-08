@@ -4,6 +4,29 @@
 <meta charset="utf-8">
 <title>MyStudy - Riwayat Pendidikan</title>
 <link rel="stylesheet" href="assets/css/style.css">
+<style>
+  /* CSS tambahan untuk halaman study */
+  .tech-item {
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  .tech-item:hover {
+    transform: scale(1.02);
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+  }
+  .tech-item::before {
+    content: '⚡';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .tech-item:hover::before {
+    opacity: 1;
+  }
+</style>
 </head>
 <body class="content-container">
   <div class="page-header">
