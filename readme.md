@@ -1,11 +1,16 @@
-# 🎯 SIB Fullstack Web Developer - Desain Web Pertemuan 3
+# 🎯 SIB Fullstack Web Developer - Desain Web Pertemuan 4
 
-## 📋 **Layout Frame Portfolio Website**
+## 🎨 **CSS Styling Portfolio Website**
 
-Tugas praktikum **Desain Web Pertemuan 3** - Portfolio website sederhana menggunakan **HTML5 Frameset** untuk implementasi layout frame dengan struktur dan styling CSS.
+Tugas praktikum **Desain Web Pertemuan 4** - Penataan ulang portfolio website dari Tugas 3 menggunakan **CSS3** untuk membuat halaman web yang lebih menarik dan modern.
 
 ## 📁 **Download Project**
-🔗 **GitHub Repository**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-3)
+🔗 **GitHub Repository**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4)
+
+## 📊 **Kriteria Penilaian**
+
+- 🎨 **CSS di seluruh page latihan** - Bobot **70%**
+- 🎨 **CSS di sebagian latihan** - Bobot **30%**
 
 ## 📸 **Website Preview**
 
@@ -20,19 +25,3 @@ Tugas praktikum **Desain Web Pertemuan 3** - Portfolio website sederhana menggun
 ### 🖼️ **Portfolio Page**
 ![Portfolio Preview](assets/preview-img/Portofolio.png)
 *Showcase portfolio dan pengalaman kerja profesional*
-
-### 🏗️ **Struktur Website**
-
-```
-index.html (Main Frameset)
-├── header.html     (120px height - Personal branding)  
-├── nav.html        (60px height - Navigation menu)
-├── content area    (Flexible height)
-│   ├── left.html   (20% width - Social links) 
-│   ├── main area   (60% width - Dynamic content)
-│   │   ├── home.html    (Hero & personal info)
-│   │   ├── study.html   (Education & achievements)  
-│   │   └── gallery.html (Portfolio & experience)
-│   └── right.html  (20% width - Tech resources)
-└── footer.html     (90px height - Contact info)
-```
