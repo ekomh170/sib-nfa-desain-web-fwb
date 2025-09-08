@@ -11,9 +11,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: #fffdf8; /* Background cream konsisten */
+  background: #f8fbff; /* Background cream-blue konsisten */
   line-height: 1.6;
-  color: #5d4037; /* Warna text coklat konsisten */
+  color: #1e3a8a; /* Warna text biru konsisten */
 }
 
 /* =================================
@@ -23,7 +23,7 @@ body {
 .header-container {
   margin: 0; 
   font-family: Arial, sans-serif; 
-  background: linear-gradient(135deg, #2f1e1a, #4b2e2b); /* Gradient coklat gelap */
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6); /* Gradient biru gelap */
   color: #fff;
   display: flex; /* Flexbox untuk layout horizontal */
   align-items: center; /* Center vertikal */
@@ -49,7 +49,7 @@ body {
 }
 
 .header-link {
-  color: #ffd9a0; /* Warna kuning cream */
+  color: #a5d8ff; /* Warna biru muda cream */
   text-decoration: none;
   font-weight: bold;
 }
@@ -65,7 +65,7 @@ body {
 .nav-container {
   margin: 0; 
   font-family: Arial, sans-serif; 
-  background: #f0e6db; /* Warna cream untuk navigation bar */
+  background: #e0f2fe; /* Warna biru muda untuk navigation bar */
   height: 100vh; /* Full viewport height */
   display: flex; /* Flexbox untuk centering */
   align-items: center; /* Center vertikal */
@@ -80,7 +80,7 @@ body {
 
 .nav a {
   text-decoration: none; 
-  color: #3a2d28; /* Warna coklat gelap */
+  color: #1e40af; /* Warna biru gelap */
   font-weight: bold;
   padding: 8px 16px; /* Padding untuk area klik yang lebih besar */
   border-radius: 6px; /* Sudut melengkung */
@@ -88,7 +88,7 @@ body {
 }
 
 .nav a:hover {
-  background-color: #e0d6ca; /* Background saat hover */
+  background-color: #bfdbfe; /* Background biru muda saat hover */
   text-decoration: underline;
 }
 
@@ -98,7 +98,7 @@ body {
 
 .footer-container {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient coklat */
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); /* Gradient biru */
   color: white;
   margin: 0;
   padding: 15px 10px; /* Padding lebih besar */
@@ -140,7 +140,7 @@ body {
 }
 
 .footer-container a {
-  color: #fff3e0; /* Warna cream untuk link */
+  color: #dbeafe; /* Warna biru cream untuk link */
   text-decoration: none;
   transition: color 0.3s ease; /* Animasi smooth */
 }
@@ -156,13 +156,13 @@ body {
 
 .sidebar-container {
   font-family: Arial, sans-serif; 
-  background: #fffdf8; /* Background cream yang konsisten */
+  background: #f8fbff; /* Background biru cream yang konsisten */
   margin: 10px;
   line-height: 1.6;
 }
 
 .sidebar-fieldset {
-  border: 2px dashed #a17c5b; /* Border putus-putus coklat */
+  border: 2px dashed #60a5fa; /* Border putus-putus biru */
   border-radius: 10px; 
   padding: 15px;
   margin-bottom: 20px;
@@ -170,7 +170,7 @@ body {
 
 .sidebar-legend {
   font-weight: bold; 
-  color: #6d4c41; /* Warna coklat gelap */
+  color: #1e40af; /* Warna biru gelap */
   padding: 0 10px;
 }
 
@@ -184,13 +184,13 @@ body {
 }
 
 .sidebar-link {
-  color: #5d4037; /* Warna coklat untuk link */
+  color: #1e3a8a; /* Warna biru untuk link */
   text-decoration: none;
 }
 
 .sidebar-link:hover {
   text-decoration: underline;
-  color: #3e2723; /* Warna lebih gelap saat hover */
+  color: #1e40af; /* Warna lebih gelap saat hover */
 }
 
 /* =================================
@@ -199,16 +199,16 @@ body {
 
 .content-container {
   font-family: Arial, sans-serif;
-  background: #fffdf8; /* Background cream */
+  background: #f8fbff; /* Background biru cream */
   margin: 20px;
   line-height: 1.6;
-  color: #5d4037; /* Warna text coklat */
+  color: #1e3a8a; /* Warna text biru */
 }
 
 /* Hero Section untuk halaman utama */
 .hero {
   text-align: center;
-  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient coklat */
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); /* Gradient biru */
   color: white;
   padding: 40px 20px;
   border-radius: 15px;
@@ -230,7 +230,7 @@ body {
 /* Page Header untuk halaman selain home */
 .page-header {
   text-align: center;
-  background: linear-gradient(135deg, #6d4c41 0%, #5d4037 100%); /* Gradient coklat */
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); /* Gradient biru */
   color: white;
   padding: 25px 20px;
   border-radius: 15px;
@@ -249,12 +249,12 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow halus */
-  border-left: 5px solid #8d6e63; /* Accent border kiri */
+  border-left: 5px solid #3b82f6; /* Accent border kiri biru */
 }
 
 .content-section h2 {
-  color: #6d4c41;
-  border-bottom: 2px solid #8d6e63; /* Underline coklat */
+  color: #1e40af;
+  border-bottom: 2px solid #3b82f6; /* Underline biru */
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
@@ -310,7 +310,7 @@ body {
 
 .feature-card:hover {
   transform: translateY(-5px); /* Efek naik saat hover */
-  border-color: #8d6e63; /* Border berubah warna */
+  border-color: #3b82f6; /* Border berubah warna biru */
 }
 
 .feature-icon {
@@ -323,12 +323,12 @@ body {
   background: #f5f5f5;
   padding: 15px;
   border-radius: 8px;
-  border-left: 4px solid #8d6e63; /* Accent border kiri */
+  border-left: 4px solid #3b82f6; /* Accent border kiri biru */
 }
 
 .tech-card h4 {
   margin: 0 0 10px 0;
-  color: #6d4c41;
+  color: #1e40af;
 }
 
 .tech-card ul {
@@ -343,7 +343,7 @@ body {
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Shadow halus */
-  border-left: 5px solid #8d6e63; /* Accent border kiri */
+  border-left: 5px solid #3b82f6; /* Accent border kiri biru */
   transition: transform 0.3s ease; /* Animasi smooth */
 }
 
@@ -352,7 +352,7 @@ body {
 }
 
 .portfolio-card h3 {
-  color: #6d4c41;
+  color: #1e40af;
   margin-bottom: 10px;
 }
 
@@ -375,13 +375,13 @@ body {
 }
 
 .social-card:hover {
-  border-color: #8d6e63; /* Border berubah warna */
+  border-color: #3b82f6; /* Border berubah warna biru */
   transform: scale(1.05); /* Efek zoom saat hover */
 }
 
 .social-card a {
   text-decoration: none;
-  color: #6d4c41;
+  color: #1e40af;
   font-weight: bold;
 }
 
@@ -417,7 +417,7 @@ body {
 }
 
 .education-table th {
-  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%);
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
   color: white;
   font-weight: bold;
 }
@@ -471,11 +471,11 @@ body {
   margin: 10px 0;
   padding: 12px;
   border-radius: 8px;
-  border-left: 4px solid #8d6e63;
+  border-left: 4px solid #3b82f6;
 }
 
 .achievement-list li strong {
-  color: #6d4c41;
+  color: #1e40af;
 }
 
 /* Experience list di gallery.html */
@@ -497,11 +497,11 @@ body {
   margin: 10px 0;
   padding: 15px;
   border-radius: 8px;
-  border-left: 4px solid #8d6e63; /* Accent border kiri */
+  border-left: 4px solid #3b82f6; /* Accent border kiri biru */
 }
 
 .experience-list li strong {
-  color: #6d4c41;
+  color: #1e40af;
   display: block; /* Membuat strong jadi block element */
   margin-bottom: 5px;
 }
@@ -513,7 +513,7 @@ body {
 /* CTA Button yang dipakai di home.html dan study.html */
 .cta-button {
   display: inline-block;
-  background: linear-gradient(135deg, #8d6e63 0%, #6d4c41 100%); /* Gradient background */
+  background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%); /* Gradient background biru */
   color: white;
   padding: 12px 30px;
   text-decoration: none;
@@ -547,7 +547,7 @@ body {
   animation: scroll 25s linear infinite; /* Animasi berjalan 25 detik */
   font-size: 18px;
   font-weight: bold;
-  color: #6d4c41;
+  color: #1e40af;
 }
 
 /* Keyframes untuk animasi marquee */
