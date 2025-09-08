@@ -45,5 +45,15 @@ Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti prog
 - **Teknologi**: HTML5, CSS3, Frameset
 - **Deskripsi**: Portfolio website dengan layout frameset, external CSS, responsive design, dan animasi marquee
 
+### 🎯 Tugas 4: Desain Web - Style CSS
+- **Branch**: `desain-web-pertemuan-4`
+- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4)
+- **Status**: 🚧 IN PROGRESS
+- **Deadline**: 10 September 2025, 23:59
+- **Teknologi**: HTML5, CSS3, Advanced Styling
+- **Deskripsi**: Penataan ulang portfolio dari Tugas 3 dengan CSS3 untuk tampilan yang lebih menarik
+- **Kriteria Penilaian**: CSS di seluruh page (70%) | CSS di sebagian page (30%)
+
+
 ---
 *Repository dibuat untuk program SIB Fullstack Web Developer (NFA) - Batch 2025*
