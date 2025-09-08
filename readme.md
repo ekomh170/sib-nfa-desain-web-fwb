@@ -48,7 +48,7 @@ Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti prog
 ### 🎯 Tugas 4: Desain Web - Style CSS
 - **Branch**: `desain-web-pertemuan-4`
 - **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-4)
-- **Status**: 🚧 IN PROGRESS
+- **Status**: ✅ COMPLETED
 - **Deadline**: 10 September 2025, 23:59
 - **Teknologi**: HTML5, CSS3, Advanced Styling
 - **Deskripsi**: Penataan ulang portfolio dari Tugas 3 dengan CSS3 untuk tampilan yang lebih menarik
