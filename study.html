@@ -1,162 +1,190 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<meta charset="utf-8">
-<title>MyStudy - Riwayat Pendidikan</title>
-<link rel="stylesheet" href="assets/css/style.css">
-<style>
-  /* CSS tambahan untuk halaman study */
-  .tech-item {
-    position: relative;
-    transition: all 0.3s ease;
-  }
-  .tech-item:hover {
-    transform: scale(1.02);
-    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
-  }
-  .tech-item::before {
-    content: '⚡';
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 16px;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  .tech-item:hover::before {
-    opacity: 1;
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Seduh - Kopi Nusantara</title>
+    
+    <!-- CSS Eksternal: Link ke file styling utama -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="content-container">
-  <div class="page-header">
-    <h1>📚 Riwayat Pendidikan Saya</h1>
-    <p>Perjalanan pendidikan dan pencapaian akademik</p>
-  </div>
+<body>
+    <div class="container">
+        <!-- Bagian Header: Identitas brand dengan latar belakang gradien -->
+        <header class="header">
+            <h1>☕ Kopi Nusantara ☕</h1>
+            <p>Nikmati Cita Rasa Kopi Terbaik Indonesia</p>
+        </header>
 
-  <div class="education-table">
-    <h2 style="color: #6d4c41; margin-bottom: 20px;">🎓 Tabel Riwayat Pendidikan</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>Jenjang</th>
-          <th>Institusi</th>
-          <th>Jurusan</th>
-          <th>Masuk</th>
-          <th>Lulus</th>
-          <th>Nilai</th>
-          <th>Status</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>SMK</td>
-          <td>SMKS 1 TRIPLE J</td>
-          <td>RPL</td>
-          <td>2018</td>
-          <td>2021</td>
-          <td>86/100</td>
-          <td><span class="status-lulus">Lulus</span></td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>S1</td>
-          <td>STT Nurul Fikri</td>
-          <td>Teknik Informatika</td>
-          <td>2023</td>
-          <td>2027</td>
-          <td>3.94/4.00</td>
-          <td><span class="status-progress">Sem 5</span></td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>Kursus</td>
-          <td>JDA</td>
-          <td>Full Stack Developer</td>
-          <td>Feb 2024</td>
-          <td>Jun 2024</td>
-          <td>92/100</td>
-          <td><span class="status-lulus">Lulus</span></td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>Program</td>
-          <td>Nurul Fikri Academy</td>
-          <td>SIB Fullstack Web Developer</td>
-          <td>Sep 2025</td>
-          <td>Ongoing</td>
-          <td>-</td>
-          <td><span class="status-progress">Progress</span></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+        <!-- Bagian Menu Navigasi: Menu horizontal dengan efek hover -->
+        <nav class="navigation">
+            <h2>Menu Navigasi</h2>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="gallery.html">Galeri Kopi</a></li>
+                <li><a href="study.html">Panduan Seduh</a></li>
+                <li><a href="references.html">Referensi Website</a></li> <!-- WARNING: File references.html tidak ada -->
+            </ul>
+        </nav>
 
-  <div class="achievements">
-    <h2>🏆 Prestasi & Sertifikasi</h2>
-    <ul class="achievement-list">
-      <li>
-        <strong>Programmer Intern Certificate</strong><br>
-        PT Karya Prima Putera Perkasa - Agustus 2025 (Ongoing)
-      </li>
-      <li>
-        <strong>SIB Fullstack Web Developer Program</strong><br>
-        Nurul Fikri Academy - September 2025 (Ongoing)<br>
-        <em>Materi Desain Web - Kumpulan tugas program SIB dengan sistem branch Git untuk pengelolaan dan review</em>
-      </li>
-      <li>
-        <strong>Best Practitioner Developer</strong><br>
-        Project Management in Campus - Juni 2025
-      </li>
-      <li>
-        <strong>Best Project Management (JIRA)</strong><br>
-        Team SizzlingChili - Juni 2025
-      </li>
-      <li>
-        <strong>Most Powerful App & Top Performing Team</strong><br>
-        Team SizzlingChili - Juni 2025
-      </li>
-      <li>
-        <strong>Best Member GDSC NF</strong><br>
-        GDSC STT Terpadu Nurul Fikri - Desember 2024
-      </li>
-      <li>
-        <strong>Best Group Team Capybara</strong><br>
-        STT Terpadu Nurul Fikri - Januari 2025
-      </li>
-      <li>
-        <strong>Most Active Student & Best Scrum Master</strong><br>
-        Software Engineering In Campus - Januari 2025
-      </li>
-      <li>
-        <strong>Full Stack Developer Certification</strong><br>
-        JDA - 2024
-      </li>
-      <li>
-        <strong>Web Programming Basic Training</strong><br>
-        JDA - 2024
-      </li>
-      <li>
-        <strong>Laravel Backend Development Class</strong><br>
-        Candradimuka Jabar Coding Camp - 2021
-      </li>
-      <li>
-        <strong>UI/UX Course Certificate</strong><br>
-        STT Terpadu Nurul Fikri - 2024
-      </li>
-      <li>
-        <strong>Internship Certificate</strong><br>
-        Institut Agama Islam Tazkia - Januari 2020
-      </li>
-    </ul>
-  </div>
-  
-  <!-- Tombol CTA untuk navigasi ke halaman gallery -->
-  <div style="text-align: center; margin-top: 30px;">
-    <a href="#" class="cta-button" onclick="parent.main.location.href='gallery.html'">🖼️ Lihat Portfolio & Gallery</a>
-  </div>
-  
+        <!-- Area Konten Utama: Layout CSS Grid 3 kolom untuk panduan seduh -->
+        <div class="content-wrapper">
+            <!-- Konten Kiri: Sidebar kiri dengan daftar metode seduh -->
+            <aside class="left-content">
+                <h3>Metode Seduh</h3>
+                <ul style="list-style: none; padding: 0; margin-top: 15px;">
+                    <li style="margin-bottom: 10px;">
+                        <strong>☕ V60</strong><br>
+                        <span style="font-size: 0.9em; color: #666;">Tuang seduh, rasa bersih</span>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <strong>☕ French Press</strong><br>
+                        <span style="font-size: 0.9em; color: #666;">Body penuh, rasa kaya</span>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <strong>☕ Chemex</strong><br>
+                        <span style="font-size: 0.9em; color: #666;">Cerah, rasa jernih</span>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <strong>☕ Aeropress</strong><br>
+                        <span style="font-size: 0.9em; color: #666;">Cepat, halus</span>
+                    </li>
+                </ul>
+
+                <h4 style="margin-top: 20px; color: #8B4513;">Peralatan Dasar:</h4>
+                <p style="font-size: 0.9em; margin-top: 8px;">• Grinder<br>• Timbangan digital<br>• Termometer<br>• Timer</p>
+            </aside>
+
+            <!-- Konten Utama: Area utama dengan panduan seduh lengkap -->
+            <main class="main-content">
+                <h3>Panduan Lengkap Menyeduh Kopi</h3>
+                
+                <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
+                    <h4 style="color: #8B4513; margin-bottom: 15px;">🎯 Panduan V60 Pour Over</h4>
+                    
+                    <div style="margin-bottom: 15px;">
+                        <strong>Bahan yang dibutuhkan:</strong>
+                        <ul style="margin-top: 8px;">
+                            <li>20g kopi (grind medium-fine)</li>
+                            <li>300ml air (suhu 90-96°C)</li>
+                            <li>Filter kertas V60</li>
+                        </ul>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <strong>Langkah-langkah:</strong>
+                        <ol style="margin-top: 8px; line-height: 1.6;">
+                            <li>Panaskan air hingga 90-96°C</li>
+                            <li>Bilas filter dengan air panas</li>
+                            <li>Masukkan kopi dan buat cekungan di tengah</li>
+                            <li>Bloom: tuang 40ml air, tunggu 30 detik</li>
+                            <li>Tuang air secara spiral dari tengah keluar</li>
+                            <li>Total waktu seduh: 2:30-3:00 menit</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div style="background: #e8f5e8; padding: 20px; border-radius: 8px; margin-bottom: 25px;">
+                    <h4 style="color: #2d5a2d; margin-bottom: 15px;">🍃 Panduan French Press</h4>
+                    
+                    <div style="margin-bottom: 15px;">
+                        <strong>Bahan yang dibutuhkan:</strong>
+                        <ul style="margin-top: 8px;">
+                            <li>30g kopi (grind coarse)</li>
+                            <li>500ml air (suhu 90-96°C)</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <strong>Langkah-langkah:</strong>
+                        <ol style="margin-top: 8px; line-height: 1.6;">
+                            <li>Masukkan kopi ke dalam french press</li>
+                            <li>Tuang air panas, aduk perlahan</li>
+                            <li>Diamkan selama 4 menit</li>
+                            <li>Tekan plunger secara perlahan</li>
+                            <li>Segera tuang dan nikmati</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div style="background: #fff3cd; padding: 15px; border-radius: 8px;">
+                    <h4 style="color: #856404;">💡 Tips Penting:</h4>
+                    <p style="margin-top: 10px; line-height: 1.6;">
+                        • Gunakan kopi yang baru digiling<br>
+                        • Perhatikan rasio kopi dan air<br>
+                        • Konsistensi suhu air sangat penting<br>
+                        • Catat resep terbaik Anda
+                    </p>
+                </div>
+            </main>
+
+            <!-- Konten Kanan: Sidebar kanan dengan alat seduh dan referensi belajar -->
+            <aside class="right-content">
+                <h3>Troubleshooting</h3>
+                
+                <div style="margin-bottom: 20px;">
+                    <h4 style="color: #d63384;">😕 Kopi Terlalu Asam?</h4>
+                    <p style="font-size: 0.9em; margin-top: 8px;">• Gunakan air lebih panas<br>• Grind lebih halus<br>• Perpanjang waktu seduh</p>
+                </div>
+
+                <div style="margin-bottom: 20px;">
+                    <h4 style="color: #fd7e14;">😖 Kopi Terlalu Pahit?</h4>
+                    <p style="font-size: 0.9em; margin-top: 8px;">• Kurangi suhu air<br>• Grind lebih kasar<br>• Kurangi waktu seduh</p>
+                </div>
+
+                <div>
+                    <h4 style="color: #6f42c1;">📊 Cheat Sheet:</h4>
+                    <div style="background: #f8f9fa; padding: 10px; border-radius: 5px; margin-top: 8px;">
+                        <p style="font-size: 0.85em;">
+                            <strong>Rasio Umum:</strong><br>
+                            • Light roast: 1:15-1:17<br>
+                            • Medium roast: 1:15-1:16<br>
+                            • Dark roast: 1:14-1:15
+                        </p>
+                    </div>
+                </div>
+
+                <div style="background: #e7f3ff; padding: 15px; border-radius: 8px; margin-top: 20px;">
+                    <h4 style="color: #004085; margin-bottom: 12px;">🌐 Referensi Belajar Kopi</h4>
+                    
+                    <div style="margin-bottom: 15px;">
+                        <p style="font-size: 0.9em;"><strong>📚 Edukasi Kopi:</strong></p>
+                        <div style="font-size: 0.8em; margin-top: 5px; line-height: 1.4;">
+                            • <a href="https://baristainstitute.com" target="_blank" style="color: #8B4513;">Barista Institute</a><br>
+                            • <a href="https://sca.coffee" target="_blank" style="color: #8B4513;">Specialty Coffee Association</a><br>
+                            • <a href="https://perfectdailygrind.com" target="_blank" style="color: #8B4513;">Perfect Daily Grind</a><br>
+                            • <a href="https://coffeegeek.com" target="_blank" style="color: #8B4513;">CoffeeGeek</a>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: 15px;">
+                        <p style="font-size: 0.9em;"><strong>📹 Channel YouTube:</strong></p>
+                        <div style="font-size: 0.8em; margin-top: 5px; line-height: 1.4;">
+                            • James Hoffmann<br>
+                            • European Coffee Trip<br>
+                            • Coffee with April<br>
+                            • Kopi Keliling Indonesia
+                        </div>
+                    </div>
+
+                    <div>
+                        <p style="font-size: 0.9em;"><strong>📱 Apps & Tools:</strong></p>
+                        <div style="font-size: 0.8em; margin-top: 5px; line-height: 1.4;">
+                            • Coffee Timer Apps<br>
+                            • Coffee Ratio Calculator<br>
+                            • Cupping Score Sheets<br>
+                            • Coffee Journal Apps
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- Bagian Footer: Informasi penutup dan copyright -->
+        <footer class="footer">
+            <h3>Kopi Nusantara</h3>
+            <p>&copy; 2025 - Melestarikan Cita Rasa Kopi Indonesia | Email: ekomh13@gmail.com</p>
+        </footer>
+    </div>
 </body>
 </html>
