@@ -1,0 +1,761 @@
+/* 
+===========================================
+TUGAS RWD BOOTSTRAP
+===========================================
+Author: Eko Muchamad Haryono
+Project: SIB Fullstack Web Developer - Desain Web Pertemuan 6
+Theme: Professional Blue Theme
+===========================================
+*/
+
+/* Global Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Professional Color Scheme */
+:root {
+    /* Primary Blue Palette */
+    --primary-blue: #2563eb;      /* Modern blue */
+    --secondary-blue: #1d4ed8;    /* Deep blue */
+    --accent-blue: #3b82f6;       /* Bright blue */
+    --light-blue: #eff6ff;        /* Very light blue */
+    --dark-blue: #1e40af;         /* Dark blue */
+    
+    /* Neutral Colors */
+    --white: #ffffff;
+    --gray-50: #f9fafb;
+    --gray-100: #f3f4f6;
+    --gray-200: #e5e7eb;
+    --gray-300: #d1d5db;
+    --gray-400: #9ca3af;
+    --gray-500: #6b7280;
+    --gray-600: #4b5563;
+    --gray-700: #374151;
+    --gray-800: #1f2937;
+    --gray-900: #111827;
+    
+    /* Status Colors */
+    --success: #10b981;
+    --success-light: #d1fae5;
+    --warning: #f59e0b;
+    --warning-light: #fef3c7;
+    --danger: #ef4444;
+    --danger-light: #fee2e2;
+    --info: #06b6d4;
+    --info-light: #cffafe;
+    
+    /* Professional Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+    --gradient-success: linear-gradient(135deg, var(--success), #059669);
+    --gradient-info: linear-gradient(135deg, var(--info), #0891b2);
+    --gradient-warning: linear-gradient(135deg, var(--warning), #d97706);
+    --gradient-danger: linear-gradient(135deg, var(--danger), #dc2626);
+    --gradient-gray: linear-gradient(135deg, var(--gray-600), var(--gray-700));
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+/* Body & Layout Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: var(--gray-50);
+}
+
+/* Layout Components */
+.header-section {
+    background: var(--gradient-primary);
+    color: var(--white);
+    padding: 2.5rem 0;
+    text-align: center;
+    border-bottom: 3px solid var(--dark-blue);
+    box-shadow: var(--shadow-md);
+}
+
+.nav-section {
+    background: var(--white);
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+}
+
+.content-wrapper {
+    min-height: 500px;
+    background: var(--gray-50);
+}
+
+.content-left {
+    background: var(--white);
+    padding: 1.5rem;
+    border-right: 1px solid var(--gray-200);
+    box-shadow: var(--shadow-sm);
+}
+
+.main-content-right {
+    background: var(--gray-50);
+    padding: 1.5rem;
+}
+
+/* Content Section Improvements */
+.content-left h3,
+.main-content-right h3 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.content-section {
+    margin-bottom: 1rem;
+}
+
+.content-section .card {
+    margin-bottom: 1rem;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.content-section:not(.active) {
+    display: none;
+}
+
+.footer-section {
+    background: var(--gray-800);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Navigation & Pills Styling */
+.navbar {
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--gray-700) !important;
+}
+
+.nav-pills .nav-link {
+    background: transparent;
+    color: var(--gray-600);
+    border: 1px solid var(--gray-300);
+    margin: 0 0.25rem;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.nav-pills .nav-link:hover {
+    background: var(--light-blue);
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-sm);
+}
+
+.nav-pills .nav-link.active {
+    background: var(--primary-blue);
+    color: var(--white);
+    border-color: var(--primary-blue);
+    box-shadow: var(--shadow-md);
+}
+
+/* Professional Tab Styling */
+.nav-tabs .nav-link {
+    color: var(--gray-600);
+    border: 1px solid transparent;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    color: var(--primary-blue);
+    border-color: var(--gray-200);
+}
+
+.nav-tabs .nav-link.active {
+    color: var(--primary-blue);
+    background-color: var(--white);
+    border-color: var(--gray-300) var(--gray-300) var(--white);
+    font-weight: 600;
+}
+
+/* Card & Component Styling */
+.card {
+    border: 1px solid var(--gray-200);
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.card-header {
+    background: var(--gray-100);
+    border-bottom: 1px solid var(--gray-200);
+    font-weight: 600;
+    color: var(--gray-700);
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+}
+
+/* Professional Badge Colors */
+.badge.bg-primary { background-color: var(--primary-blue) !important; }
+.badge.bg-success { background-color: var(--success) !important; }
+.badge.bg-warning { background-color: var(--warning) !important; color: var(--white) !important; }
+.badge.bg-danger { background-color: var(--danger) !important; }
+.badge.bg-info { background-color: var(--info) !important; }
+.badge.bg-secondary { background-color: var(--gray-500) !important; }
+
+/* Progress Bar */
+.progress {
+    height: 0.5rem;
+    border-radius: 1rem;
+    background-color: var(--light-gray);
+    overflow: hidden;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+    background: var(--gradient-primary);
+    border-radius: 1rem;
+    transition: width 0.6s ease;
+}
+
+/* Form Controls */
+.form-control:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+.form-select:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25);
+}
+
+/* Spinner Animation */
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner-border {
+    color: var(--primary-blue);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .display-4 {
+        font-size: 2rem;
+    }
+    .card-columns {
+        column-count: 2;
+    }
+    .content-left,
+    .main-content-right {
+        padding: 1.25rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 1.75rem;
+    }
+    .lead {
+        font-size: 1.1rem;
+    }
+    .card-columns {
+        column-count: 1;
+    }
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+    }
+    .content-left,
+    .main-content-right {
+        padding: 1rem;
+    }
+    .content-left h3,
+    .main-content-right h3 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+    .container-fluid {
+        padding: 0 0.75rem;
+    }
+    .content-left,
+    .main-content-right {
+        padding: 0.75rem;
+    }
+    .content-left h3,
+    .main-content-right h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+}
+
+.badge {
+    border-radius: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Button Styling */
+.btn-primary {
+    background: var(--gradient-primary);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: var(--gradient-primary);
+    filter: brightness(0.95);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Outline Button Variants */
+.btn-outline-primary {
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+.btn-outline-primary:hover {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.btn-outline-success {
+    color: var(--success);
+    border-color: var(--success);
+}
+.btn-outline-success:hover {
+    background-color: var(--success);
+    border-color: var(--success);
+}
+
+.btn-outline-info {
+    color: var(--info);
+    border-color: var(--info);
+}
+.btn-outline-info:hover {
+    background-color: var(--info);
+    border-color: var(--info);
+}
+
+.btn-outline-warning {
+    color: var(--warning);
+    border-color: var(--warning);
+}
+.btn-outline-warning:hover {
+    background-color: var(--warning);
+    border-color: var(--warning);
+    color: var(--white);
+}
+
+.btn-outline-danger {
+    color: var(--danger);
+    border-color: var(--danger);
+}
+.btn-outline-danger:hover {
+    background-color: var(--danger);
+    border-color: var(--danger);
+}
+
+/* Badge Styling */
+.badge {
+    border-radius: 15px;
+    padding: 8px 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Table Styling */
+.table-primary {
+    background: var(--light-blue);
+    color: var(--dark-blue);
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+    background: rgba(66, 133, 244, 0.05);
+}
+
+.table-hover tbody tr:hover {
+    background: rgba(66, 133, 244, 0.1);
+}
+
+/* Gallery Cards */
+.gallery-content .card {
+    overflow: hidden;
+}
+
+.gallery-content .card img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-content .card:hover img {
+    transform: scale(1.05);
+}
+
+/* Login Form Styling */
+.input-group-text {
+    background: var(--light-blue);
+    border-color: #dee2e6;
+    color: var(--dark-blue);
+}
+
+.form-control:focus {
+    border-color: var(--primary-blue);
+    box-shadow: 0 0 0 0.2rem rgba(66, 133, 244, 0.25);
+}
+
+/* Sidebar Styling */
+.sidebar .list-group-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .list-group-item:hover {
+    background: var(--light-blue);
+    transform: translateX(5px);
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: auto;
+}
+
+.social-links a {
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px) scale(1.1);
+    color: #ffffff !important;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+/* Content Section Animation */
+.content-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease;
+}
+
+.content-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Profile Image Animation */
+.profile-img {
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--gradient-blue);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-blue);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .carousel-content {
+        min-height: 300px;
+    }
+    
+    .carousel-content h1 {
+        font-size: 2rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+    
+    .card {
+        margin-bottom: 1rem;
+    }
+    
+    .social-links a {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-content {
+        min-height: 250px;
+    }
+    
+    .carousel-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .container-fluid {
+        padding: 0 10px;
+    }
+}
+
+/* Loading Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Gradient Text Effect */
+.gradient-text {
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: bold;
+}
+
+/* Custom Blue Variants for Bootstrap */
+.text-primary {
+    color: var(--primary-blue) !important;
+}
+
+.bg-primary {
+    background: var(--gradient-blue) !important;
+}
+
+.border-primary {
+    border-color: var(--primary-blue) !important;
+}
+
+/* Utilities */
+.shadow-blue {
+    box-shadow: 0 0 20px rgba(66, 133, 244, 0.3);
+}
+
+.rounded-xl {
+    border-radius: 20px;
+}
+
+/* 
+===========================================
+CAROUSEL BANNER STYLES
+===========================================
+Custom styling untuk carousel dengan gambar background
+*/
+
+/* Carousel Container */
+#carouselBanner {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    margin: 0 auto 2rem;
+    max-width: 900px; /* Lebar maksimal diperkecil */
+    width: 90%; /* Responsive width */
+}
+
+/* Carousel Image Styling */
+.carousel-image {
+    height: 400px; /* Height dikurangi agar gambar tidak terpotong */
+    object-fit: contain; /* Ubah ke contain agar gambar terlihat penuh */
+    object-position: center;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Gradient background */
+    border-radius: 10px; /* Sedikit rounded untuk gambar */
+}
+
+/* Alternative: Jika ingin background solid */
+.carousel-image.solid-bg {
+    background-color: #f8f9fa;
+}
+
+/* Fallback untuk carousel tanpa gambar */
+.carousel-item:not(:has(img)) {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item:nth-child(1):not(:has(img)) {
+    background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+}
+
+.carousel-item:nth-child(2):not(:has(img)) {
+    background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.carousel-item:nth-child(3):not(:has(img)) {
+    background: linear-gradient(135deg, #17a2b8, #6f42c1);
+}
+
+.carousel-item:nth-child(3):not(:has(img)) {
+    background: linear-gradient(135deg, #17a2b8, #6f42c1);
+}
+
+/* Carousel Caption Overlay */
+.carousel-caption-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    transform: none;
+    width: 100%;
+}
+
+/* Carousel Caption Text */
+.carousel-caption-overlay h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.carousel-caption-overlay p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+/* Carousel Controls Enhancement */
+.carousel-control-prev, .carousel-control-next {
+    width: 8%;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    opacity: 1; /* Selalu terlihat, tidak perlu hover */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+    margin-bottom: 1rem;
+}
+
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    margin: 0 5px;
+}
+
+.carousel-indicators button.active {
+    background-color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+/* Responsive Carousel */
+@media (max-width: 768px) {
+    #carouselBanner {
+        max-width: 95%; /* Lebar diperbesar sedikit di tablet */
+        width: 95%;
+    }
+    
+    .carousel-image {
+        height: 300px; /* Height dikurangi untuk tablet */
+    }
+    
+    .carousel-caption-overlay {
+        padding: 2rem 1rem 1.5rem;
+    }
+    
+    .carousel-caption-overlay h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .carousel-caption-overlay p {
+        font-size: 1rem;
+    }
+    
+    .carousel-control-prev, .carousel-control-next {
+        width: 12%;
+    }
+}
+
+@media (max-width: 576px) {
+    #carouselBanner {
+        max-width: 98%; /* Hampir full width di mobile */
+        width: 98%;
+    }
+    
+    .carousel-image {
+        height: 250px; /* Height lebih kecil untuk mobile */
+    }
+    
+    .carousel-caption-overlay {
+        padding: 1.5rem 0.8rem 1rem;
+    }
+    
+    .carousel-caption-overlay h2 {
+        font-size: 1.5rem;
+    }
+    
+    .carousel-caption-overlay p {
+        font-size: 0.9rem;
+    }
+}

@@ -1,21 +1,32 @@
-# 🎯 SIB Fullstack Web Developer - Desain Web Pertemuan 5
+# 🚀 SIB Fullstack Web Developer - Desain Web Pertemuan 6
 
-Website informasi tentang kopi Indonesia dengan layout CSS yang mengikuti struktur grid 3 kolom sesuai dengan tugas Layout CSS.
+Website portfolio personal dengan Bootstrap 5 dan Responsive Web Design (RWD).
 
-## 📁 **Download Project**
-🔗 **GitHub Repository**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-5](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-5)
+## 📋 **Deskripsi**
+Website portfolio dengan layout Bootstrap yang responsive dan modern.
 
+## **Link Project**
+[GitHub Repository](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-6)
 
-### 📄 Halaman Website
+## 🎯 **Fitur Utama**
+- ✅ Responsive Design (Mobile, Tablet, Desktop)
+- ✅ Bootstrap 5 Framework
+- ✅ Carousel Banner dengan 3 gambar
+- ✅ Navigation Menu dengan Internal Links
+- ✅ Portfolio Gallery
+- ✅ Data Tables dengan Tabs
+- ✅ Login Form
 
-#### 1. 🏠 **Beranda** (`index.html`)
-![Beranda Preview](assets/preview-img/Beranda.png) 
+## 📄 **Halaman**
+- ✅ **Home**: Profile personal dan skills
+- ✅ **Study**: Riwayat pendidikan & prestasi
+- ✅ **Gallery**: Portfolio & work experience  
+- ✅ **DataTable**: Data personal & akademik
+- ✅ **Login**: Form authentication
 
-#### 2. 🖼️ **Galeri Kopi** (`gallery.html`) 
-![Galeri Kopi Preview](assets/preview-img/Galeri.png) 
+## ✅ **Status Project**
+**SELESAI** - Semua fitur telah berhasil diimplementasi
 
-#### 3. 📚 **Panduan Seduh** (`study.html`)
-![Panduan Seduh Preview](assets/preview-img/Panduan-Kopi.png) 
-
-#### 4. 🔗 **Referensi Website** (`references.html`)
-![Referensi Website Preview](assets/preview-img/Referensi.png) 
+## 👨‍ **Author**
+**Eko Muchamad Haryono**  
+SIB Fullstack Web Developer - NFA Academy 
