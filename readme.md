@@ -52,8 +52,22 @@ Repository ini berisi kumpulan tugas-tugas yang dikerjakan selama mengikuti prog
 - **Deadline**: 10 September 2025, 23:59
 - **Teknologi**: HTML5, CSS3, Advanced Styling
 - **Deskripsi**: Penataan ulang portfolio dari Tugas 3 dengan CSS3 untuk tampilan yang lebih menarik
-- **Kriteria Penilaian**: CSS di seluruh page (70%) | CSS di sebagian page (30%)
 
+### 🎯 Tugas 5: Desain Web - Layout CSS Grid
+- **Branch**: `desain-web-pertemuan-5`
+- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-5](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-5)
+- **Status**: ✅ COMPLETED
+- **Deadline**: 11 September 2025, 23:59
+- **Teknologi**: HTML5, CSS3, CSS Grid Layout
+- **Deskripsi**: Website informasi tentang kopi Indonesia dengan layout CSS
 
+### 🎯 Tugas 6: Desain Web - Responsive Web Design (Bootstrap)
+- **Branch**: `desain-web-pertemuan-6`
+- **GitHub Link**: [https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-6](https://github.com/ekomh170/sib-nfa-desain-web-fwb/tree/desain-web-pertemuan-6)
+- **Status**: ✅ COMPLETED
+- **Deadline**: 12 September 2025, 23:59
+- **Teknologi**: HTML5, Bootstrap 5, CSS3, JavaScript
+- **Deskripsi**: Website portfolio responsive dengan Bootstrap 5 framework
+  
 ---
 *Repository dibuat untuk program SIB Fullstack Web Developer (NFA) - Batch 2025*
